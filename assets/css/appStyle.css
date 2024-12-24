@@ -1,0 +1,23 @@
+/* Style the container */
+.social-media-links {
+    display: flex;                  /* Flexbox for alignment */
+    justify-content: center;        /* Centers the links horizontally */
+    align-items: center;            /* Centers the links vertically */
+    gap: 10px;                      /* Adds space between the icons */
+    height: 40px;                  /* Full viewport height */
+    text-align: center;             /* Centers the text */
+    margin-top: 10px;
+  }
+  
+  /* Style each social icon */
+  .social-icon {
+    font-size: 30px;                /* Adjust the icon size */
+    color: #333;                    /* Set the color of the icons */
+    text-decoration: none;          /* Remove the underline from the links */
+    transition: color 0.3s ease;    /* Smooth color transition on hover */
+  }
+  
+  /* Hover effect for the icons */
+  .social-icon:hover {
+    color: #007bff;                 /* Change icon color on hover (you can customize) */
+  }
